@@ -36,7 +36,7 @@ func (p *Person) getMarried(spouceLastName string) {
 
 func main() {
 	// init person struct
-	p1 := Person{"Abhinav", "Robinson", 20, "M"}
+	p1 := Person{"Abhinav", "Robinson", "M", 20}
 
 	fmt.Println(p1)
 
@@ -47,7 +47,7 @@ func main() {
 	p1.hasBday()
 
 	// create another person
-	p2 := Person{"Samantha", "Smith", 20, "F"}
+	p2 := Person{"Samantha", "Smith", "F", 20}
 	fmt.Println(p2.greet())
 
 	// value reciever
